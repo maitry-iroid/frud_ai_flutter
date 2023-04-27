@@ -1,4 +1,4 @@
-# Freud AI
+# Basic Flutter Project Setup
 
 
 
@@ -15,14 +15,14 @@ Already a pro? Just edit this README.md and make it your own. Want to make it ea
 
 ```
 cd existing_repo
-git remote add origin https://gitlab.com/iroid-flutter-team1/freud-ai.git
+git remote add origin https://gitlab.com/iroid-flutter-team1/basic-flutter-project-setup.git
 git branch -M main
 git push -uf origin main
 ```
 
 ## Integrate with your tools
 
-- [ ] [Set up project integrations](https://gitlab.com/iroid-flutter-team1/freud-ai/-/settings/integrations)
+- [ ] [Set up project integrations](https://gitlab.com/iroid-flutter-team1/basic-flutter-project-setup/-/settings/integrations)
 
 ## Collaborate with your team
 
