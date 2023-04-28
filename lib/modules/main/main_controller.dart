@@ -1,7 +1,8 @@
-import 'package:align_flutter_app/api/api_repository.dart';
-import 'package:align_flutter_app/shared/constants/string_constant.dart';
-import 'package:align_flutter_app/shared/widgets/base_text.dart';
-
+import 'package:Freud_AI_app/api/api_repository.dart';
+import 'package:Freud_AI_app/modules/main/chat/today_chat_binding.dart';
+import 'package:Freud_AI_app/modules/main/chat/today_chat_view.dart';
+import 'package:Freud_AI_app/shared/constants/string_constant.dart';
+import 'package:Freud_AI_app/shared/widgets/base_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:get/get.dart';
@@ -19,59 +20,44 @@ class MainController extends GetxController {
   var pageList = <String>[].obs;
 
   DateTime? currentBackPressTime;
-  String? profilePage;
-  String? locationPage;
-  String? notificationPage;
-  String? searchPage;
-  String? messagePage;
+  String? todayPage;
+  String? libraryPage;
+  String? userPage;
+
   void switchTab(int index) async {
     currentTabIndex.value = index;
     switch (index) {
       case 0:
-        if (!pageList.contains(profilePage)) {
-          pageList.add(profilePage!);
+        if (!pageList.contains(todayPage)) {
+          pageList.add(todayPage!);
         }
-        pageIndex.value = pageList.indexOf(profilePage);
+        pageIndex.value = pageList.indexOf(todayPage);
         break;
       case 1:
-        if (!pageList.contains(locationPage)) {
-          pageList.add(locationPage!);
+        if (!pageList.contains(libraryPage)) {
+          pageList.add(libraryPage!);
         }
 
-        pageIndex.value = pageList.indexOf(locationPage);
+        pageIndex.value = pageList.indexOf(libraryPage);
         break;
 
       case 2:
-        if (!pageList.contains(searchPage)) {
-          pageList.add(searchPage!);
+        if (!pageList.contains(userPage)) {
+          pageList.add(userPage!);
         }
-        pageIndex.value = pageList.indexOf(searchPage);
+        pageIndex.value = pageList.indexOf(userPage);
         break;
-      case 3:
-        if (!pageList.contains(messagePage)) {
-          pageList.add(messagePage!);
-        }
-        pageIndex.value = pageList.indexOf(messagePage);
-        break;
-      case 4:
-        if (!pageList.contains(notificationPage)) {
-          pageList.add(notificationPage!);
-        }
-        pageIndex.value = pageList.indexOf(notificationPage);
-        break;
+
       default:
     }
   }
 
   Route? onGenerateRoute(RouteSettings settings, String tabItem) {
-    if (tabItem == Routes.PROFILE) {
+    if (tabItem == Routes.TODAY) {
       return getPageRoute(
         settings,
-        Scaffold(
-            body: Center(
-          child: BaseText(text: "text"),
-        )),
-        // binding: ProfileBinding(),
+        const TodayChatView(),
+        binding: TodayChatBinding(),
       );
     }
     // } else if (tabItem == Routes.LOCATION) {
@@ -113,13 +99,13 @@ class MainController extends GetxController {
 
   @override
   void onInit() {
-    profilePage = Routes.PROFILE;
+    todayPage = Routes.TODAY;
 
     // locationPage = Routes.LOCATION;
     // searchPage = Routes.SEARCH;
     // messagePage = Routes.CHAT;
     // notificationPage = Routes.NOTIFICATION;
-    pageList.add(profilePage!);
+    pageList.add(todayPage!);
     super.onInit();
   }
 

@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.iroid" "\0"
-            VALUE "FileDescription", "align_flutter_app" "\0"
+            VALUE "FileDescription", "Freud_AI_app" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "align_flutter_app" "\0"
+            VALUE "InternalName", "Freud_AI_app" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2022 com.iroid. All rights reserved." "\0"
-            VALUE "OriginalFilename", "align_flutter_app.exe" "\0"
-            VALUE "ProductName", "align_flutter_app" "\0"
+            VALUE "OriginalFilename", "Freud_AI_app.exe" "\0"
+            VALUE "ProductName", "Freud_AI_app" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

@@ -1,4 +1,4 @@
-import 'package:align_flutter_app/network/network_manger.dart';
+import 'package:Freud_AI_app/network/network_manger.dart';
 import 'package:get/get.dart';
 
 import 'api/api.dart';

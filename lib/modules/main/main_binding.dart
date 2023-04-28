@@ -1,4 +1,4 @@
-import 'package:align_flutter_app/modules/main/main_controller.dart';
+import 'package:Freud_AI_app/modules/main/main_controller.dart';
 
 import 'package:get/instance_manager.dart';
 

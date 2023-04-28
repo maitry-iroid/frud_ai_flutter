@@ -89,20 +89,15 @@ class StringConstant {
   static const String serverError = 'something went wrong please try again';
   static const String networkError = 'Please check your internet connectivity';
 
-  //profile
-
-  static const String myCasualProfile = 'My Casual Profile';
-  static const String myBusinessProfile = 'My Business Profile';
-  static const String casual = 'Casual';
-  static const String buiseness = 'Business';
-  static const String editCasualProfile = 'Edit Casual Profile';
-  static const String basicInfo = 'Basic Infos';
-  static const String editBusinessProfile = 'Edit Business Profile';
-  static const String photos = 'Photos';
-  static const String prompts = 'Prompts';
-  static const String additionalInfo = 'Additional Info';
-
   //core
   static const String pressthebackbuttontoexit =
       'Press the back button to exit';
+
+  //freud
+  static const String freudAI = 'Freud AI';
+  static const String today = 'Today';
+  static const String library = 'Library';
+  static const String user = 'User';
+  static const String appBarText = 'Good Evening';
+  static const String messageHint = 'Write a message...';
 }

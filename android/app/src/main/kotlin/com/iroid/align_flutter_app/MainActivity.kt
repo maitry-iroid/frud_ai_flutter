@@ -1,4 +1,4 @@
-package com.iroid.align_flutter_app
+package com.freudAI.mobile.app
 
 import io.flutter.embedding.android.FlutterActivity
 

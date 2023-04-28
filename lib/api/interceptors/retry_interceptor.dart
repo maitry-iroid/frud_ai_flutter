@@ -1,11 +1,11 @@
 import 'dart:io';
 
-import 'package:align_flutter_app/api/interceptors/dio_connectivity_request_retrier.dart';
-import 'package:align_flutter_app/di.dart';
-import 'package:align_flutter_app/models/response/common_response.dart';
-import 'package:align_flutter_app/shared/constants/storage.dart';
-import 'package:align_flutter_app/shared/constants/string_constant.dart';
-import 'package:align_flutter_app/shared/utils/common_widget.dart';
+import 'package:Freud_AI_app/api/interceptors/dio_connectivity_request_retrier.dart';
+import 'package:Freud_AI_app/di.dart';
+import 'package:Freud_AI_app/models/response/common_response.dart';
+import 'package:Freud_AI_app/shared/constants/storage.dart';
+import 'package:Freud_AI_app/shared/constants/string_constant.dart';
+import 'package:Freud_AI_app/shared/utils/common_widget.dart';
 import 'package:dio/dio.dart';
 
 import 'package:flutter_easyloading/flutter_easyloading.dart';

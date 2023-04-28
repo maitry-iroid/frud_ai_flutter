@@ -1,3 +1,4 @@
+import 'package:Freud_AI_app/modules/auth/splash/splash_screen.dart';
 import 'package:get/get.dart';
 
 import '../modules/main/main_binding.dart';
@@ -11,6 +12,12 @@ class AppPages {
       name: Routes.MAIN,
       page: () => MainTab(),
       binding: MainBindings(),
+      children: [],
+    ),
+    GetPage(
+      name: Routes.SPLASH,
+      page: () => SplashScreen(),
+      //binding: MainBindings(),
       children: [],
     ),
   ];

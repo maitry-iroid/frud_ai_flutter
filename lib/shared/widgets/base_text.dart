@@ -1,5 +1,6 @@
-import 'package:align_flutter_app/shared/constants/color_constants.dart';
-import 'package:align_flutter_app/shared/utils/math_utils.dart';
+
+import 'package:Freud_AI_app/shared/constants/color_constants.dart';
+import 'package:Freud_AI_app/shared/utils/math_utils.dart';
 import 'package:flutter/material.dart';
 
 class BaseText extends StatelessWidget {
@@ -30,7 +31,7 @@ class BaseText extends StatelessWidget {
     this.fontWeight,
     this.letterSpacing,
     this.maxLines = 5,
-    this.fontFamily = 'Poppins',
+    this.fontFamily = 'SF-Pro',
     this.lineHeight,
     this.shadows,
   }) : super(key: key);

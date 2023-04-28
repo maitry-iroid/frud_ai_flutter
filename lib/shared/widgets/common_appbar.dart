@@ -1,4 +1,5 @@
-import 'package:align_flutter_app/shared/utils/math_utils.dart';
+import 'package:Freud_AI_app/shared/constants/color_constants.dart';
+import 'package:Freud_AI_app/shared/utils/math_utils.dart';
 import 'package:flutter/material.dart';
 
 import 'base_text.dart';
@@ -25,15 +26,18 @@ class BaseAppBar extends StatelessWidget implements PreferredSizeWidget {
       //  leading: leading ?? _buildLeadingView(),
       automaticallyImplyLeading: false,
       leadingWidth: getSize(100),
-      title: BaseText(
-        text: title,
-        fontSize: 22,
-        fontWeight: FontWeight.w500,
+      title: Padding(
+        padding:  EdgeInsets.only(left: getSize(18)),
+        child: BaseText(
+          text: title,
+          fontSize: 16,
+          fontWeight: FontWeight.w400,
+          textColor: ColorConstants.white,
+        ),
       ),
       backgroundColor: backgroundColor,
       elevation: 0,
       actions: actions,
-      centerTitle: true,
     );
   }
 

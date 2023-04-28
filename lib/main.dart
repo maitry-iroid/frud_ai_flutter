@@ -1,4 +1,4 @@
-import 'package:align_flutter_app/theme/theme.dart';
+import 'package:Freud_AI_app/theme/theme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
 import 'package:flutter/services.dart';
@@ -52,7 +52,7 @@ class App extends StatelessWidget {
     print("Token : ${prefs.getString(StorageConstants.token)}");
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: Routes.MAIN,
+      initialRoute: Routes.SPLASH,
       defaultTransition: Transition.native,
       getPages: AppPages.routes,
       initialBinding: AppBinding(),

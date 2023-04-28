@@ -339,9 +339,9 @@
     },
     {
       "name": "flutter_svg",
-      "rootUri": "file:///Users/imac/.pub-cache/hosted/pub.dev/flutter_svg-1.1.6",
+      "rootUri": "file:///Users/imac/.pub-cache/hosted/pub.dev/flutter_svg-2.0.5",
       "packageUri": "lib/",
-      "languageVersion": "2.17"
+      "languageVersion": "2.19"
     },
     {
       "name": "flutter_test",
@@ -526,12 +526,6 @@
     {
       "name": "path",
       "rootUri": "file:///Users/imac/.pub-cache/hosted/pub.dev/path-1.8.2",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "path_drawing",
-      "rootUri": "file:///Users/imac/.pub-cache/hosted/pub.dev/path_drawing-1.0.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -806,6 +800,24 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "vector_graphics",
+      "rootUri": "file:///Users/imac/.pub-cache/hosted/pub.dev/vector_graphics-1.1.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "vector_graphics_codec",
+      "rootUri": "file:///Users/imac/.pub-cache/hosted/pub.dev/vector_graphics_codec-1.1.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "vector_graphics_compiler",
+      "rootUri": "file:///Users/imac/.pub-cache/hosted/pub.dev/vector_graphics_compiler-1.1.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
+    },
+    {
       "name": "vector_math",
       "rootUri": "file:///Users/imac/.pub-cache/hosted/pub.dev/vector_math-2.1.4",
       "packageUri": "lib/",
@@ -830,13 +842,13 @@
       "languageVersion": "2.18"
     },
     {
-      "name": "align_flutter_app",
+      "name": "Freud_AI_app",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     }
   ],
-  "generated": "2023-04-27T09:09:52.331575Z",
+  "generated": "2023-04-28T09:21:39.902472Z",
   "generator": "pub",
   "generatorVersion": "2.19.6"
 }

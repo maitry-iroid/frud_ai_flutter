@@ -1,4 +1,4 @@
-import 'package:align_flutter_app/shared/constants/socket_constant.dart';
+import 'package:Freud_AI_app/shared/constants/socket_constant.dart';
 import 'package:get/get.dart';
 
 import 'package:socket_io_client/socket_io_client.dart';

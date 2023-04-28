@@ -1,5 +1,5 @@
-import 'package:align_flutter_app/shared/constants/color_constants.dart';
-import 'package:align_flutter_app/shared/utils/math_utils.dart';
+import 'package:Freud_AI_app/shared/constants/color_constants.dart';
+import 'package:Freud_AI_app/shared/utils/math_utils.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
@@ -78,7 +78,7 @@ class _BottomNavigationDotState extends State<BottomNavigationDot> {
         _NavigationIconButton(
           item.icon,
           (index == _indexSelected)
-              ? _activeColor ?? ColorConstants.kPrimary
+              ? _activeColor ?? ColorConstants.primary
               : _color ?? ColorConstants.grey1,
           item.onTap,
           () {

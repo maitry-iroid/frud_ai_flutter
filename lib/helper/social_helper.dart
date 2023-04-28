@@ -1,5 +1,5 @@
-import 'package:align_flutter_app/models/auth/facebook_response_model.dart';
-import 'package:align_flutter_app/shared/constants/string_constant.dart';
+import 'package:Freud_AI_app/models/auth/facebook_response_model.dart';
+import 'package:Freud_AI_app/shared/constants/string_constant.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';

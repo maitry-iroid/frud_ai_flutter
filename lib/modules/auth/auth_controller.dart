@@ -1,4 +1,4 @@
-import 'package:align_flutter_app/api/api_repository.dart';
+import 'package:Freud_AI_app/api/api_repository.dart';
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';

@@ -1,6 +1,6 @@
-import 'package:align_flutter_app/shared/constants/color_constants.dart';
-import 'package:align_flutter_app/shared/utils/math_utils.dart';
-import 'package:align_flutter_app/shared/widgets/base_text.dart';
+import 'package:Freud_AI_app/shared/constants/color_constants.dart';
+import 'package:Freud_AI_app/shared/utils/math_utils.dart';
+import 'package:Freud_AI_app/shared/widgets/base_text.dart';
 import 'package:figma_squircle/figma_squircle.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -51,10 +51,9 @@ class CommonOutlineButton extends StatelessWidget {
         onPressed: onPressed,
         style: OutlinedButton.styleFrom(
           //padding: EdgeInsets.zero,
-          primary: Colors.transparent,
-          shadowColor: Colors.transparent,
+          foregroundColor: Colors.transparent, shadowColor: Colors.transparent,
           side: BorderSide(
-            color: ColorConstants.kPrimary,
+            color: ColorConstants.primary,
           ),
           shape: SmoothRectangleBorder(
             borderRadius: SmoothBorderRadius.all(
@@ -70,7 +69,7 @@ class CommonOutlineButton extends StatelessWidget {
             text: text,
             fontWeight: fontWeight ?? FontWeight.w400,
             fontSize: fontSize ?? 16,
-            textColor: textColor ?? ColorConstants.kPrimary,
+            textColor: textColor ?? ColorConstants.primary,
           ),
         ),
       ),

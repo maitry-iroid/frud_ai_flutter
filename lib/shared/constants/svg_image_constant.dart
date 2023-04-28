@@ -13,4 +13,12 @@ class SvgImageConstant {
   static const notificationSelected = "assets/images/png/arrow_left.png";
   static const timeCircle = "assets/images/svg/time_circle.svg";
   static const call = "assets/images/svg/call.svg";
+
+  static const notes = "assets/images/svg/notes.svg";
+  static const search = "assets/images/svg/search.svg";
+  static const profile = "assets/images/svg/profile.svg";
+  static const like = "assets/images/svg/like.svg";
+  static const refresh = "assets/images/svg/refresh.svg";
+  static const notification = "assets/images/svg/notification.svg";
+  static const send = "assets/images/svg/send.svg";
 }
