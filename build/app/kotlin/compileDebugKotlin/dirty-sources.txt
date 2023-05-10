@@ -1,1 +1,0 @@
-/Users/imac/Documents/Projects/freud-ai/android/app/src/main/kotlin/com/iroid/align_flutter_app/MainActivity.kt
